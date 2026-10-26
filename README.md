@@ -28,26 +28,26 @@
 
 1. Projeyi klonlayın
 
-git clone https://github.com/abdullahOzdemirr/Ground-Control-Station.git
+* git clone https://github.com/abdullahOzdemirr/Ground-Control-Station.git
 
 2. CMake ile Derleyin
 
-mkdir build
-cd build
-cmake ..
-cmake --build .
-cd ..
+* mkdir build
+* cd build
+* cmake ..
+* cmake --build .
+* cd ..
 
 3. GCS Uygulamasını Çalıştırın
 
-Derlenen çalıştırılabilir dosyayı (GcsCore.exe) başlatarak arayüze bağlanabilirsiniz.
-.\build\Debug\GcsCore.exe
+* Derlenen çalıştırılabilir dosyayı (GcsCore.exe) başlatarak arayüze bağlanabilirsiniz.
+* .\build\Debug\GcsCore.exe
 
 4. Python Simülatörünü Başlatın
 
-Telemetri akışını ve komut testlerini gerçekleştirmek için simülatörü çalıştırın:
-python iha_simulator.py
+* Telemetri akışını ve komut testlerini gerçekleştirmek için simülatörü çalıştırın:
+* python iha_simulator.py
 
-📄 License
+## 📄 License
 
 Bu proje açık kaynaklıdır, eğitim ve mühendislik amaçları için geliştirilmiştir.
