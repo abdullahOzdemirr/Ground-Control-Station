@@ -40,7 +40,6 @@ def listen_commands():
                 speed = 0.0
                 roll_angle = 0.0
                 pitch_angle = 0.0
-            # Manuel Eksen Komutları (Y ekseni düzeltildi: Sol -, Sağ +)
             elif command_type == "MOVE_FORWARD":
                 x_position += 10.0
                 pitch_angle = 10.0
@@ -48,10 +47,10 @@ def listen_commands():
                 x_position -= 10.0
                 pitch_angle = -10.0
             elif command_type == "MOVE_LEFT":
-                y_position -= 10.0  # Sola gittikçe azalır (-)
+                y_position -= 10.0 
                 roll_angle = -15.0
             elif command_type == "MOVE_RIGHT":
-                y_position += 10.0  # Sağa gittikçe artar (+)
+                y_position += 10.0 
                 roll_angle = 15.0
             elif command_type == "ALT_UP":
                 altitude += 5.0

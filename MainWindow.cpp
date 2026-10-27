@@ -170,7 +170,6 @@ void MainWindow::run() {
 
             float panel_height = 200.0f;
 
-            // Tablo Genişliğini Tam Ekran Yayacak Şekilde Ayarlıyoruz
             ImGuiTableFlags table_flags = ImGuiTableFlags_Borders | ImGuiTableFlags_SizingStretchProp;
             if (ImGui::BeginTable("MainLayoutTable", 4, table_flags)) {
                 ImGui::TableNextRow();
